@@ -7,12 +7,14 @@ import Services from './Components/Services'
 import Contact from './Components/Contact'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import './App.css';
+
 
 function App() {
   return (
     <>
-    <section style={{padding:'30px'}}>
-      <Navbar />
+      <section className="app-nav-section">
+        <Navbar />
       </section>
       
       <Routes>
@@ -22,8 +24,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
     
-      <section style={{backgroundColor:'dodgerblue',padding:'30px'}}>
-      <Footer />
+      <section className="app-footer-section">
+        <Footer />
       </section>
     </>
   )

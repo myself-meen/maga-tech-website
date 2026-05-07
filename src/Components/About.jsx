@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 function About() {
     return ( <>
-    <h2>About Us</h2>
-    <div style={{display:'flex', flexDirection:'row', justifyContent:'space-around'}}>
+    <h2 className="section-title">About Us</h2>
+    <div className="about-grid">
     <section id='vision'>
         <h3>Our Vision</h3>
         <p> To revolutionize how businesses connect with their audiences by creating lasting, human-centered digital experiences.</p>

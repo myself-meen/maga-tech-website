@@ -1,18 +1,17 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../assets/vite.svg';
 function Navbar() {
     return ( <>
-    <nav style={{display:'flex', columnGap:'100px', justifyContent:'space-between'}}>
-        <div style={{display:'flex',columnGap:'5px'}}>
-        <img id='logo' src={logo} alt='logo' style={{width:'40px', height:'40px', alignSelf:'center'}}/>
+    <nav className="navbar">
+        <div className="navbar-brand">
+        <img className="navbar-logo" src={logo} alt='logo' />
         <h3>SM Digital Marketing</h3>
         </div>
-        <div style={{display:'flex', columnGap:'10px', justifyContent:'space-between', alignSelf:'center'}}>
-        <Link to='/'>Home</Link> |{" "}
-        <Link to='/about'>About</Link> |{" "}
-        <Link to='/services'>Services</Link> |{" "}
-        <Link to='/contact'>Contact</Link>
+        <div className="navbar-links">
+        <a href='#home'>Home</a> |{" "}
+        <a href='#about'>About</a> |{" "}
+        <a href='#services'>Services</a> |{" "}
+        <a href='#contact'>Contact</a>
         </div>
     </nav>
 
