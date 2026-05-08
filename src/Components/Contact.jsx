@@ -27,7 +27,7 @@ function Contact() {
     <div className="contact-info">
     <h2 className="section-title">Contact Us</h2>
     <ul>
-        <li>sgmarketing@info.com</li>
+        <li>nexcentmarketing@info.com</li>
         <li>321-221-231</li>
     </ul>
     </div>
@@ -60,7 +60,7 @@ function Contact() {
         </div>
          <div className="form-row">
             <label htmlFor='message'>Message </label>
-            <textarea ref={messageRef} type="text" id='message' style={{height:'150px'}}></textarea>
+            <textarea ref={messageRef} type="text" id='message' style={{height:'50px'}}></textarea>
             
         </div>
         <button className='submit-button'>Submit</button>
