@@ -14,17 +14,19 @@
 .form-row-space-between {
   justify-content: space-between;
 } */
- .section-panel{
+ .contact-section-panel{
   display:flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   padding: 50px;
+  justify-content: space-evenly;
 
  }
  .contact-info{
-  align-items: flex-start;
-  padding: 50px;
+  /* align-items: flex-start;
+  padding: 50px; */
   display: flex;
   flex-direction: column;
+  row-gap:15px;
   
 
  }
@@ -33,14 +35,17 @@
   padding: 50px;
     background-color: #F5F7FA;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
  }
- ul{
+ .contact-list{
   list-style: none;
   display: flex;
-  flex-direction: column;
-  gap: 10px;
+  justify-content: space-between;
+  /* row-gap: 5px; */
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  
   
  }
  .contact-form form {
@@ -52,13 +57,21 @@
  .form-row{
   display:flex;
   flex-direction: column;
+  row-gap: 5px;
  }
  .submit-button{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-style: normal;
+  background: #28CB8B;
+  cursor: pointer;
+ }
 
-color: rgb(255, 255, 255);
-
- padding: 10px; border-radius: 5px;  
- font-style: normal;  background:#28CB8B; 
+ .submit-button:focus-visible {
+  outline: none;
  }
 .customer-info{
   display: flex;
@@ -69,6 +82,15 @@ color: rgb(255, 255, 255);
 }
 .customer-info>div{
   width:45%;
+}
+.contact-list button{
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  background: #28CB8B;
+  cursor: pointer;
 }
 /* input, textarea{
 

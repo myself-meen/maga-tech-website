@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../assets/logo-black.svg';
 import './Navbar.css';
+import '/home/meenakshi/repos/maga-tech-website/src/App.css'
 function Navbar() {
     return ( <>
     <section className='nav-section-panel'>

@@ -1,8 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './About.css';
 function About() {
     return ( <>
-    <h2 className="section-title">About Us</h2>
-    <div className="about-grid">
+    <section id="about" className="about-section-panel">
+        <section className='section-title'>
+    <h2 className="title-about">About</h2>
+    <h2 className='title-us'>Us</h2>
+
+    </section>
+    
     <section id='vision'>
         <h3>Our Vision</h3>
         <p> To revolutionize how businesses connect with their audiences by creating lasting, human-centered digital experiences.</p>
@@ -18,9 +24,9 @@ function About() {
         <p>To foster authentic digital connections between brands and consumers through transparency, creativity, and cutting-edge technology.</p>
 
     </section>
-    </div>
+
+    </section>
     </> );
 }
 
 export default About;
-

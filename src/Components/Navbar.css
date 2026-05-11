@@ -6,6 +6,10 @@
 }
 .nav-section-panel{
     padding: 15px;
+    position: sticky;
+    top:0;
+    background-color: #FFFFFF
+    
 }
 .navbar-links{
     display: flex;
@@ -19,9 +23,15 @@
     font-size: 20px;
 } */
 .nav-contact-button{
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background: #28CB8B;
+  cursor: pointer;
+}
 
-color: rgb(255, 255, 255);
-padding: 5px;
-  border-radius: 5px;  
- font-style: normal;  background:#28CB8B; 
- }
+.nav-contact-button:focus-visible {
+  outline: none;
+} 

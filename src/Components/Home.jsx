@@ -5,6 +5,7 @@ import Contact from './Contact';
 import Footer from './Footer';
 import './Home.css';
 import  homeimg from '../assets/social-media.svg';
+import '/home/meenakshi/repos/maga-tech-website/src/App.css';
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
         <img src={homeimg} className='home-image'/>
         </div>
       </section>
-      <section id="about" className="section-panel"><About/></section>
+      <About/>
       <Services/>
      <Contact/>
       {/* <section id='footer'><Footer/></section> */}
