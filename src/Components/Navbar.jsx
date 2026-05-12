@@ -1,25 +1,42 @@
 import React from 'react';
 import logo from '../assets/logo-black.svg';
-import './Navbar.css';
-import '/home/meenakshi/repos/maga-tech-website/src/App.css'
+
 function Navbar() {
-    return ( <>
-    <section className='nav-section-panel'>
-    <nav className="navbar">
-        <div className="navbar-brand">
-        <img className="navbar-logo" src={logo} alt='logo' />
+  return (
+    <section className='sticky top-0 bg-white px-4 py-3'>
+      
+      <nav className='flex items-center justify-between max-w-7xl mx-auto'>
         
+        {/* Logo */}
+        <div>
+          <img 
+            className='w-28 md:w-36' 
+            src={logo} 
+            alt='logo' 
+          />
         </div>
-        <div className="navbar-links">
-        <a href='#home' >Home</a> 
-        <a href='#about'>About</a> 
-        <a href='#services'>Services</a> 
-        <a href='#contact'><button className='nav-contact-button'>Contact</button></a>
+
+        {/* Links */}
+        <div className='flex items-center gap-3 md:gap-6 text-sm md:text-base'>
+          
+          <a href='#home'>Home</a>
+
+          <a href='#about'>About</a>
+
+          <a href='#services'>Services</a>
+
+          <a href='#contact'>
+            <button className='bg-[#28CB8B] text-white px-3 py-2 rounded-md'>
+              Contact
+            </button>
+          </a>
+
         </div>
-    </nav>
-</section>
-    </>
-     );
+
+      </nav>
+
+    </section>
+  );
 }
 
 export default Navbar;
