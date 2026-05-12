@@ -1,4 +1,4 @@
-h1,h2,p,h3,h4,h5,h6{
+/* h1,h2,p,h3,h4,h5,h6{
   font-family:  'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   
 }
@@ -18,17 +18,17 @@ h1,h2,p,h3,h4,h5,h6{
 h1 {
   font-size: var(--fs-h1);
   font-weight: 700; /* Bold as seen in the 'Headline 1' style */
-  line-height: 1.2;
-}
+  /* line-height: 1.2; */
+/* } */
 
-h2 {
+/* h2 {
   font-size: var(--fs-h2);
   font-weight: 600;
 }
 
 p {
   font-size: var(--fs-body-md);
-  line-height: 1.6; /* Standard readability for body text */
+  line-height: 1.6; 
 }
 .navbar-links>a{
 color: #4D4D4D;
@@ -42,4 +42,4 @@ html {
 .about-section-panel p{
 color:#717171;
 }
-a { text-decoration: none; }
+a { text-decoration: none; } */ 
