@@ -70,24 +70,24 @@ function Contact() {
        
         <div className="form-row form-row-space-between flex flex-col">
             <label htmlFor='name'>Name </label>
-            <input ref={nameRef} type="text" id='name' className='border rounded-lg border-slate-300 focus:outline-slate-300'  />
+            <input ref={nameRef} type="text" id='name' autoComplete='on' className='border rounded-lg border-slate-300 focus:outline-slate-300'  />
         
         </div>
          <div className="form-row form-row-space-between flex flex-col">
             <label htmlFor='email'>Email </label>
-            <input ref={emailRef} type="email" id='email' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
+            <input ref={emailRef} type="email" id='email' autoComplete='on' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
         
         </div>
 
 
          <div className="form-row form-row-space-between flex flex-col">
             <label htmlFor='company'>Company </label>
-            <input ref={companyRef} type="text" id='company' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
+            <input ref={companyRef} type="text" id='company' autoComplete='on' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
             
         </div>
          <div className="form-row form-row-space-between flex flex-col">
             <label htmlFor='phno'>Ph no</label>
-            <input ref={phnoRef} type="text" id='phno' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
+            <input ref={phnoRef} type="text" id='phno' autoComplete='on' className='border rounded-lg border-slate-300 focus:outline-slate-300'/>
             
         </div>
         </div>
